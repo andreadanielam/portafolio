@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body{
+	
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #000000;
+	font-family: 'Lato', sans-serif;
+}
+header{
+	padding: 10px 10px;}
+#menu{
+	text-transform: uppercase;
+}
+
+#about-me{
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0px 0;
+	
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 700;
+	
+}
+
+#hero p{
+	font-size: 20px;
+}
+
+.btn-rectangulo{
+	background-color:transparent;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform: lowercase;
+	font-weight:600;
+}
+.btn-rectangulo:hover{
+	background-color: #FFFFFF;
+	color:#000;
+	
+}
+
+#servicios{
+	padding: 100px 50px 100px 50px;
+	
+}
+
+#servicios h2{
+	font-size: 40px;
+	
+	
+}
+#servicios i{
+	font-size: 30px;
+	
+}
+	
+#scroll{
+	padding:100px 0px;
+}
+
+#scroll .info-scroll{
+	text-align:center;
+	margin-bottom: 50px;
+	margin: 20px;
+}
+
+.info-scroll h3{
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+.info-scroll h4{
+	font-size: 22px;
+	
+}
+
+.info-scroll p{
+	font-size: 16px;
+}
+
+#logos{
+	background-color: #171717;
+	padding: 50px 0px;
+}
+
+
+.titulo{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+
+.titulo::after{
+	content:'';
+	height: 1px;
+	background-color: #fff;
+	width: 100px;
+	display: block;
+margin-top: 20px
+}
+
+
+
+
+#page-header{
+	background-color: #0C0C0C;
+	color: #fff;
+	padding: 50px 0;
+	
+}
+
+
+#page-header h1{
+font-size: 26px;
+}
+
+#content{
+	padding: 45px 0;
+}
+
+
+#portafolio{
+	padding: 100px 100px;
+}
+#campana{
+	padding: 10px 100px;
+}
+#relevo{
+	padding: 50px 100px;
+}
+.icono{
+	font-size: 40px;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fff;
+    border: 0 !important;
+}
+
+.info-scroll .fas{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+
+#blog article:nth-child(1){
+	padding-top: 100px;
+}
+
+.titulo span{
+	display:block;
+	font-weight: 400;
+}
+
+#extra{
+	background-image: url( "../img/20190317_211814.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+	
+}
+#contacto{
+	padding: 100px 0px;
+}
+
+#message{
+	padding: 50px 0;
+	text-align: center;
+	
+}
+
+#message h2{
+	font-size: 20px;
+	
+}
+#message h2 a{
+margin-left: 30px;
+}
+
+#footer{
+	background-color: #0C0C0C;
+	padding: 50px 0;
+	width: 100%;
+	
+}
+
+#footer h3{
+	font-size: 20px;
+     margin-bottom: 20px;
+}
+
+#footer a,
+#copyright a{
+	color: #fff;
+}
+
+#footer a:hover,
+#copyright a:hover{
+	color: #555;
+}
+	
+#copyright{
+	padding: 25px 0;
+}
+@media (min-width:480px) and (max-width: 1024px){
+	.carousel-caption h1{
+		font-size: 40px;
+	}
+	.carousel-caption p{
+		font-size: 16px;
+	}
+	.carousel-caption{
+		top: 20%;
+	}
+}
+/*celular*/
+@media (max-width: 480px){
+	.carousel-caption h1{
+		font-size: 24px;
+	}
+	.carousel-caption p{
+		display: none;
+	}
+	.carousel-caption{
+		top: 20%;
+	}
+}
